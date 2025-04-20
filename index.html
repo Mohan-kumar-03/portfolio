@@ -7,6 +7,9 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/style.css">
 
     <title>Mohan kumar | A Computer Science Engineer.</title>
@@ -17,7 +20,7 @@
         <div class="logo">PORTFOLIO</div>
         <div class="navs">
             <ul id="nav_list" class="nav_list">
-                <li> <a href="#home" onclick="show_menu()" >Home</a></li>
+                <li> <a href="#home" onclick="show_menu()">Home</a></li>
                 <li><a href="#about" onclick="show_menu()">About me</a></li>
                 <li><a href="#skills" onclick="show_menu()">Skills</a></li>
                 <li><a href="#project" onclick="show_menu()">Project</a></li>
@@ -33,7 +36,7 @@
             <h2>Mohan Kumar</h2>
             <p>Computer Science Engineer</p>
             <p id="element"></p>
-            <a href="./assets/pdf/resume.pdf" class="resume_btn" download>Download CV</a>
+            <a href="./assets/pdf/resume (2).pdf" class="resume_btn" download>Download CV</a>
         </div>
         <div class="right">
             <img src="./assets/img/profile-pic (1).png" alt="profile-pic">
@@ -80,35 +83,35 @@
     <div id="skills">
         <div class="P_skill">
             <h2>Programing skills :</h2>
-            <hr/>
+            <hr />
             <section>
-                <p>Python</p>
-                <p>Java</p>
+                <p><i class="fa-brands fa-python"></i>Python</p>
+                <p><i class="fa-brands fa-java"></i>Java</p>
                 <p>C language</p>
                 <p>C++</p>
             </section>
         </div>
         <div class="f_skill">
             <h2>Front-end skills :</h2>
-            <hr/>
+            <hr />
             <section>
-                <p>Html</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>React js</p>
-                <p>Angular</p>
-                <p>Php</p>
+                <p><i class="fa-brands fa-html5"></i>Html</p>
+                <p><i class="fa-brands fa-css"></i>CSS</p>
+                <p><i class="fa-brands fa-js"></i>JavaScript</p>
+                <p><i class="fa-brands fa-react"></i>React js</p>
+                <p><i class="fa-brands fa-angular"></i>Angular</p>
+                <p><i class="fa-brands fa-php"></i>Php</p>
             </section>
         </div>
         <div class="b_skill">
             <h2>Back-end skills :</h2>
-            <hr/>
+            <hr />
             <section>
-                <p>Git & Github</p>
-                <p>Node js</p>
+                <p><i class="fa-brands fa-git-alt"></i>Git & <i class="fa-brands fa-github"></i>Github</p>
+                <p><i class="fa-brands fa-node-js"></i>Node js</p>
                 <p>Django</p>
                 <p>MongoDB</p>
-                <p>Sql</p>
+                <p><i class="fa-solid fa-database"></i>Sql</p>
             </section>
 
         </div>
@@ -120,10 +123,10 @@
             <section>
                 <div class="proj_sec">
                     <img src="./assets/img/quesreena.png" alt="project_1">
-                   <section>
-                       <h3>Quereosa</h3>
-                       <button onclick="alert('Project under maintainence!')">Visit</button>
-                   </section>
+                    <section>
+                        <h3>Quereosa</h3>
+                        <button onclick="alert('Project under maintainence!')">Visit</button>
+                    </section>
                 </div>
                 <div class="proj_sec">
                     <img src="./assets/img/sheringo.png" alt="project_2">
@@ -138,17 +141,19 @@
                     <section>
 
                         <h3>Wether Web</h3>
-                        <button onclick="document.location='https://mohan-kumar-03.github.io/Weather-web/'" >Visit</button>
+                        <button
+                            onclick="document.location='https://mohan-kumar-03.github.io/Weather-web/'">Visit</button>
                     </section>
                 </div>
             </section>
         </div>
         <div class="certs">
             <h2>Certifiactions :</h2>
-            <hr/>
+            <hr />
             <section>
                 <div class="cert_div">
-                    <embed src="./assets/pdf/E H I - Completion certificate.pdf" type="application/pdf" width="150" height="200">
+                    <embed src="./assets/pdf/E H I - Completion certificate.pdf" type="application/pdf" width="150"
+                        height="200">
                     <p>Ethical Hacking</p>
                 </div>
                 <div class="cert_div">
@@ -200,12 +205,12 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Software Engineer','Ethical Hacker', 'App Developer', 'ML Engineer' ],
-          typeSpeed: 60,
-          loop:true,
-          showCursor:false
+            strings: ['Web Developer', 'Software Developer', 'Ethical Hacker', 'App Developer'],
+            typeSpeed: 60,
+            loop: true,
+            showCursor: false
         });
-      </script>
+    </script>
 </body>
 
 </html>
