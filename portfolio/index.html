@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <title>Mohan kumar | A Computer Science Engineer.</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">PORTFOLIO</div>
+        <div class="navs">
+            <ul id="nav_list" class="nav_list">
+                <li> <a href="#home" onclick="show_menu()">Home</a></li>
+                <li><a href="#about" onclick="show_menu()">About me</a></li>
+                <li><a href="#skills" onclick="show_menu()">Skills</a></li>
+                <li><a href="#project" onclick="show_menu()">Project</a></li>
+                <li><a href="#contact" onclick="show_menu()">Contact me</a> </li>
+            </ul>
+            <i class="fa-solid fa-bars" id="menu" style="color: #ffffff;"></i>
+        </div>
+    </div>
+    <div id="home">
+
+        <div class="left">
+            <h3>Hello i'm</h3>
+            <h2>Mohan Kumar</h2>
+            <p>Computer Science Engineer</p>
+            <p id="element"></p>
+            <a href="./assets/pdf/resume (2).pdf" class="resume_btn" download>Download CV</a>
+        </div>
+        <div class="right">
+            <img src="./assets/img/profile-pic (1).png" alt="profile-pic">
+        </div>
+
+    </div>
+    <div id="about">
+        <div class="abt_main">
+            <section>
+                <img src="./assets/img/profile-pic.png" alt="about me pic">
+                <h2>About me</h2>
+            </section>
+
+            <p>
+                I am Mohan Kumar from Buxar(Bihar). I am a skilled web developer
+                who possesses a unique blend of creativity and technical expertise.
+                With a keen eye for design and a deep understanding of programming
+                languages such as HTML, CSS, JavaScript, and various frameworks like
+                React and Angular, i have the ability to bring dynamic and
+                visually appealing websites to life. My proficiency in backend
+                technologies like Node.js, Express, and databases such as MongoDB
+                or SQL enables me to develop robust and efficient web applications.
+                My main attention to detail ensures that every aspect of a website,
+                from its functionality to its user experience, is meticulously crafted
+                to meet the needs of clients and users alike.
+            </p>
+        </div>
+        <div class="qualifi">
+            <div>
+                <h2>Matriculation</h2>
+                <h3>+2 High School, Murar</h3>
+                <p>49.8 Percentage</p>
+
+            </div>
+            <div>
+                <h2>Diploma in Polytechnic</h2>
+                <h3>GEMS Polytechnic college</h3>
+                <h4>Computer Science Engineering</h4>
+                <p>8.38 CGPA</p>
+
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="P_skill">
+            <h2>Programing skills :</h2>
+            <hr />
+            <section>
+                <p><i class="fa-brands fa-python"></i>Python</p>
+                <p><i class="fa-brands fa-java"></i>Java</p>
+                <p>C language</p>
+                <p>C++</p>
+            </section>
+        </div>
+        <div class="f_skill">
+            <h2>Front-end skills :</h2>
+            <hr />
+            <section>
+                <p><i class="fa-brands fa-html5"></i>Html</p>
+                <p><i class="fa-brands fa-css"></i>CSS</p>
+                <p><i class="fa-brands fa-js"></i>JavaScript</p>
+                <p><i class="fa-brands fa-react"></i>React js</p>
+                <p><i class="fa-brands fa-angular"></i>Angular</p>
+                <p><i class="fa-brands fa-php"></i>Php</p>
+            </section>
+        </div>
+        <div class="b_skill">
+            <h2>Back-end skills :</h2>
+            <hr />
+            <section>
+                <p><i class="fa-brands fa-git-alt"></i>Git & <i class="fa-brands fa-github"></i>Github</p>
+                <p><i class="fa-brands fa-node-js"></i>Node js</p>
+                <p>Django</p>
+                <p>MongoDB</p>
+                <p><i class="fa-solid fa-database"></i>Sql</p>
+            </section>
+
+        </div>
+    </div>
+    <div id="project">
+        <div class="proj">
+            <h2>Projects :</h2>
+            <hr />
+            <section>
+                <div class="proj_sec">
+                    <img src="./assets/img/quesreena.png" alt="project_1">
+                    <section>
+                        <h3>Quereosa</h3>
+                        <button onclick="alert('Project under maintainence!')">Visit</button>
+                    </section>
+                </div>
+                <div class="proj_sec">
+                    <img src="./assets/img/sheringo.png" alt="project_2">
+                    <section>
+
+                        <h3>Sheringo</h3>
+                        <button onclick="alert('Project under maintainence!')">Visit</button>
+                    </section>
+                </div>
+                <div class="proj_sec">
+                    <img src="./assets/img/wether web.png" alt="project_3">
+                    <section>
+
+                        <h3>Wether Web</h3>
+                        <button
+                            onclick="document.location='https://mohan-kumar-03.github.io/Weather-web/'">Visit</button>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <div class="certs">
+            <h2>Certifiactions :</h2>
+            <hr />
+            <section>
+                <div class="cert_div">
+                    <embed src="./assets/pdf/E H I - Completion certificate.pdf" type="application/pdf" width="150"
+                        height="200">
+                    <p>Ethical Hacking</p>
+                </div>
+                <div class="cert_div">
+                    <embed src="./assets/pdf/HTML FROM IIT BOMBAY.pdf" type="application/pdf" width="260" height="190">
+                    <p>HTML, IIT Bombay</p>
+                </div>
+                <div class="cert_div">
+                    <embed src="./assets/pdf/ML USING PYTHON.pdf" type="application/pdf" width="260" height="190">
+                    <p>ML using python, IEEE</p>
+                </div>
+                <div class="cert_div">
+                    <embed src="./assets/pdf/techobyte.pdf" type="application/pdf" width="260" height="190">
+                    <p>Techo workshop, IIT patna</p>
+                </div>
+            </section>
+        </div>
+
+
+
+    </div>
+    <div id="contact">
+        <div class="form-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                <div class="form-group">
+                    <input type="hidden" name="access_key" value="d3c803cb-a864-4a19-9096-fc56f80af521">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="textarea">How Can I Help You?</label>
+                    <textarea name="textarea" id="textarea" rows="10" cols="50" required>
+
+                </textarea>
+                </div>
+                <button class="form-submit-btn" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="conicons">
+            <a href="https://www.linkedin.com/in/er-mohan-kumar/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Mohan-kumar-03"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.instagram.com/mohan_kumar___003"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+    </div>
+
+
+
+
+    <script src="./assets/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Developer', 'Ethical Hacker', 'App Developer'],
+            typeSpeed: 60,
+            loop: true,
+            showCursor: false
+        });
+    </script>
+</body>
+
+</html>
